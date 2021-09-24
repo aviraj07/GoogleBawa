@@ -1,0 +1,250 @@
+%submitbar{
+        background-color: #303134;
+        border: 1px solid #01040e;
+        border-radius: 4px;
+        color: #e8eaed;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        margin: 11px 95px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 34px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+    
+}
+%inputbar{
+            border-radius: 26px;
+            width: 487px;
+            height: 28px;
+            text-indent: 14px;
+            outline: none;
+            font-size: 20px;
+            border: 1px solid gray;
+}
+
+
+
+#body1{
+    background-image: url("Android-Announcing-Wear-OS-Tiles-Alpha-social-V2.png");
+    position: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    a{
+        text-decoration: none;
+        font-size: large;
+        margin: 12px;
+        padding-top: -5px;
+        display: inline-block;
+        color: white;
+    }
+
+    a:hover, a:active{
+        text-decoration: underline;
+    }
+    a:visited{
+        color: hotpink;
+    }
+
+    #logo{
+        display: inline-block;
+        margin: 0 auto;
+        width: 27%;
+        padding-top: 131px;
+        padding-left: 568px;
+    }
+    
+    form { 
+        margin: 13px 515px;
+        display: inline-block;
+        padding-top: 6px;
+    
+        #bar{
+           @extend %inputbar;
+            
+        }
+    
+        input[type="submit"]{
+            @extend %submitbar;
+
+        }
+    
+        #lucky{
+            margin: 11px 31px;
+            display: inline-block;
+            margin-inline-start: 48px;
+        }
+    
+        #search{
+            display: inline-block;
+            margin-inline-end: auto;
+        }
+    }
+    
+    .links{
+        float: right;
+        padding-left: 32px;
+    } 
+}
+
+#body2{
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    img{
+        display: inline-block;
+        margin: 0 auto;
+        width: 18%;
+        padding-top: 153px;
+        padding-left: 625px;
+        
+    }
+
+    .links{
+        float: right;
+        padding-left: 34px;
+        padding-right: 18px;
+        padding-top: -2px;
+        font-size: large;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: large;
+        margin: 12px;
+        display: inline-block;
+        color: black
+    }
+
+    a:hover, a:active{
+        text-decoration: underline;
+    }
+
+    span{
+        position: absolute;
+        bottom: 2px;
+        right: 32px;
+        color: rgb(30, 141, 233);
+        padding-left: 32px;
+        padding-right: 583px;
+        font-size: 17px;
+        display: inline-block;
+    }
+    .container{
+        position: relative;
+        
+    }
+    form{
+        margin: 18px 521px;
+        display: inline-block;
+        padding-top: 6px;
+        #submit{
+            @extend %submitbar;
+            margin: 28px 198px;
+        }
+        .bar{
+            @extend %inputbar;
+    
+        }
+    }
+}
+
+#body3{
+    background-color: rgb(80, 76, 76);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    #advance{
+        margin-left: 20px;
+        padding-top: 51px;
+        display: inline-block;
+        font-size: 23px;
+        padding-left: 20px;
+
+    }
+    .links{
+        float: right;
+    padding-left: 34px;
+    padding-right: 35px;
+    padding-top: 16px;
+    font-size: x-large;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: large;
+        margin: 12px;
+        display: inline-block;
+        color: white
+    }
+
+    a:hover, a:active{
+        text-decoration: underline;
+    }
+
+    #button{
+        @extend %submitbar;
+        background-color: rgb(93, 116, 245);
+        margin: 24px 171px;
+    }
+    form{
+        display: inline-block;
+        margin: 30px 30px;
+        font-size: larger;
+        width: 1000px;
+
+        .words{
+            margin-right: 120px;
+            display: inline-block;
+        }
+        .formbox{
+            width: inherit;
+            
+        }
+        .word2{
+            margin-right: 88px;
+            display: inline-block;
+        }
+        .word3{
+            display: inline-block;
+            margin-right: 82px;
+            size: 40px;
+            
+        }
+        
+        .rit{
+            float: right;
+        }
+        .inc{
+            width: 552px;
+            margin-right: 170px;
+            padding: 4px;
+        }
+    }
+    
+
+    
+    label {
+        display: block;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
+        width: max-content;
+        line-height: 26px;
+        margin-bottom: 17px;
+        width: 1000px;
+    }
+      
+      input {
+        height: 20px;
+        flex: 0 0 200px;
+        margin-left: 10px;
+    }
+}
+     
+     
+     
+
+     
+

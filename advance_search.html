@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advance Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="body3">
+    <div>
+        <a href="index.html" class="links">Google</a>
+        <label style="margin-left:10px" id="advance">Advanced Search</label>
+    </div>
+    <br>
+    <hr>
+    <form action="https://google.com/search">
+        <div class="formbox">
+
+            Find pages with: <br><br><br>
+            <label>
+                <div class="words">
+                    All these words:
+
+                </div>
+                <div class="rit">
+                    <input type="text" name="as_q" class="inc" autofocus autocomplete="off"
+                        placeholder="Type the important words: tri-colour rat terrier">
+                </div>
+            </label>
+            <label>
+                <div class="word2">
+                    Exact word/phrase:
+
+                </div>
+                <div class="rit">
+                    <input type="text" name="as_epq" class="inc" autofocus autocomplete="off"
+                        placeholder="Put exact words in quotes: rat terrier">
+
+                </div>
+            </label>
+            <label>
+                <div class="word3">
+
+                    Any of these words:
+                </div>
+                <div class="rit">
+
+                    <input type="text" name="as_oq" class="inc" autofocus autocomplete="off"
+                        placeholder="Type OR between all the words you want: miniature OR standard">
+                </div>
+
+            </label>
+            <label>
+                <div class="word3">
+
+                    None of these words:
+                </div>
+                <div class="rit">
+
+                    <input type="text" name="as_eq" class="inc" autofocus autocomplete="off"
+                        placeholder="Put a minus sign just before words that you don't want: -rodent, -Jack Russell">
+                </div>
+            </label>
+            <br><br> <input type="submit" value="Advanced search" id="button" class="rit">
+        </div>
+    </form>
+</body>
+</html>

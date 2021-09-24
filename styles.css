@@ -1,0 +1,245 @@
+#body1 form input[type="submit"], #body2 form #submit, #body3 #button {
+  background-color: #303134;
+  border: 1px solid #01040e;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 95px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 34px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#body1 form #bar, #body2 form .bar {
+  border-radius: 26px;
+  width: 487px;
+  height: 28px;
+  text-indent: 14px;
+  outline: none;
+  font-size: 20px;
+  border: 1px solid gray;
+}
+
+#body1 {
+  background-image: url("Android-Announcing-Wear-OS-Tiles-Alpha-social-V2.png");
+  position: fixed;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#body1 a {
+  text-decoration: none;
+  font-size: large;
+  margin: 12px;
+  padding-top: -5px;
+  display: inline-block;
+  color: white;
+}
+
+#body1 a:hover, #body1 a:active {
+  text-decoration: underline;
+}
+
+#body1 a:visited {
+  color: hotpink;
+}
+
+#body1 #logo {
+  display: inline-block;
+  margin: 0 auto;
+  width: 27%;
+  padding-top: 131px;
+  padding-left: 568px;
+}
+
+#body1 form {
+  margin: 13px 515px;
+  display: inline-block;
+  padding-top: 6px;
+}
+
+#body1 form #lucky {
+  margin: 11px 31px;
+  display: inline-block;
+  -webkit-margin-start: 48px;
+          margin-inline-start: 48px;
+}
+
+#body1 form #search {
+  display: inline-block;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
+}
+
+#body1 .links {
+  float: right;
+  padding-left: 32px;
+}
+
+#body2 {
+  background-color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#body2 img {
+  display: inline-block;
+  margin: 0 auto;
+  width: 18%;
+  padding-top: 153px;
+  padding-left: 625px;
+}
+
+#body2 .links {
+  float: right;
+  padding-left: 34px;
+  padding-right: 18px;
+  padding-top: -2px;
+  font-size: large;
+}
+
+#body2 a {
+  text-decoration: none;
+  font-size: large;
+  margin: 12px;
+  display: inline-block;
+  color: black;
+}
+
+#body2 a:hover, #body2 a:active {
+  text-decoration: underline;
+}
+
+#body2 span {
+  position: absolute;
+  bottom: 2px;
+  right: 32px;
+  color: #1e8de9;
+  padding-left: 32px;
+  padding-right: 583px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#body2 .container {
+  position: relative;
+}
+
+#body2 form {
+  margin: 18px 521px;
+  display: inline-block;
+  padding-top: 6px;
+}
+
+#body2 form #submit {
+  margin: 28px 198px;
+}
+
+#body3 {
+  background-color: #504c4c;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#body3 #advance {
+  margin-left: 20px;
+  padding-top: 51px;
+  display: inline-block;
+  font-size: 23px;
+  padding-left: 20px;
+}
+
+#body3 .links {
+  float: right;
+  padding-left: 34px;
+  padding-right: 35px;
+  padding-top: 16px;
+  font-size: x-large;
+}
+
+#body3 a {
+  text-decoration: none;
+  font-size: large;
+  margin: 12px;
+  display: inline-block;
+  color: white;
+}
+
+#body3 a:hover, #body3 a:active {
+  text-decoration: underline;
+}
+
+#body3 #button {
+  background-color: #5d74f5;
+  margin: 24px 171px;
+}
+
+#body3 form {
+  display: inline-block;
+  margin: 30px 30px;
+  font-size: larger;
+  width: 1000px;
+}
+
+#body3 form .words {
+  margin-right: 120px;
+  display: inline-block;
+}
+
+#body3 form .formbox {
+  width: inherit;
+}
+
+#body3 form .word2 {
+  margin-right: 88px;
+  display: inline-block;
+}
+
+#body3 form .word3 {
+  display: inline-block;
+  margin-right: 82px;
+  size: 40px;
+}
+
+#body3 form .rit {
+  float: right;
+}
+
+#body3 form .inc {
+  width: 552px;
+  margin-right: 170px;
+  padding: 4px;
+}
+
+#body3 label {
+  display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: left;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  line-height: 26px;
+  margin-bottom: 17px;
+  width: 1000px;
+}
+
+#body3 input {
+  height: 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
